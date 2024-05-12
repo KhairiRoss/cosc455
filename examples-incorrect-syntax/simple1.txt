@@ -1,0 +1,9 @@
+//2:10:>>>>> Bad symbol 'IDENTIFIER': expected one of ',' and ';'
+//   int a b;
+//          ^
+
+program simple :
+   int a b;
+   a := 1 ;
+   print b
+.

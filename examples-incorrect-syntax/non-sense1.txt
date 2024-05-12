@@ -1,0 +1,17 @@
+// 6:22:>>>>> Bad symbol 'not': expected one of 'IDENTIFIER', 'if', 'while' and 'print'
+//   while (a != b) do not print else do
+//                        ^
+
+program lexicallyOk :
+   int a;
+   int b;
+   a := 2;
+   b := 5;
+   while (a != b) do not print else do
+     int b;
+     b := 2 * a;
+     print b;
+     a := a + 1
+   end;
+   print b
+.

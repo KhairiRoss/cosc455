@@ -1,0 +1,17 @@
+//../examples/hiding-error.txt:10:22:>>>>> Bad symbol 'do': expected one of '*', '/', 
+//'and', '+', '-', 'or' and ')'
+//   while not (a != b do
+//                     ^
+program Hiding :
+   int a;
+   int b;
+   a := 2;
+   b := 5;
+   while not (a != b do
+     int b;
+     b := 2 * a;
+     print b;
+     a := a + 1
+   end;
+   print b
+.

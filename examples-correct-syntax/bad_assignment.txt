@@ -1,0 +1,5 @@
+program BadAssignment:
+   int a;
+   bool b;
+   a := b or not b
+.

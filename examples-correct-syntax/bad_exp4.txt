@@ -1,0 +1,5 @@
+program bad_expression:
+   int a;
+   bool b;
+   b := a + b
+.

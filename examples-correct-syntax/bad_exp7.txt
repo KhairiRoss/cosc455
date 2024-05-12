@@ -1,0 +1,8 @@
+program bad_expression:
+   int a;
+   int b;
+   if a < b then
+     bool b;
+     b := 2 * a
+   end
+.

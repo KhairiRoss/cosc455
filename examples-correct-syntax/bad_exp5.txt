@@ -1,0 +1,8 @@
+program bad_expression:
+   int a;
+   bool b;
+   while not a = b do
+     int b;
+     print b
+   end
+.

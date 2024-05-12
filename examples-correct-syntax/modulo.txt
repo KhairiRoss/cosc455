@@ -1,0 +1,14 @@
+program modulo:
+
+  int a, b, c;
+  bool eq;
+  a := 8;
+  b := 3;
+  c := a mod b;
+  eq := a / b + c = 4;
+  print a;
+  print b;
+  print c;
+  print a / b + c;
+  print eq
+.
